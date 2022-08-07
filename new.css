@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&family=Work+Sans&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--text-color: #e0e0e0;
+	--bg-color: #000000;
+	--border-color: #424242;
+}
+html {
+	scroll-padding: 10.5vh 0 0 0;
+	scroll-behavior: smooth;
+}
+
+body {
+	color: var(--text-color);
+	font-family: "Alura", "Work Sans";	
+	position: relative;
+	width: 1512px;
+	height: 1783px;
+	background: #000000;
+}
+header {
+	height: 30px;
+	width: 575px;
+	left: 835px;
+	top: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	position: absolute;
+	background-color: #000000bb;
+	z-index: 1;
+	padding: 0 2em;
+	backdrop-filter: blur(8px);
+}
+.header-border {
+	border-bottom: 1px solid #00000000;
+}
+#header-title {
+	font-size: 25px;
+	font-size: clamp(20px, 5vw, 25px);
+}
+.hidden-visibility {
+	visibility: hidden;
+}
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 80px;
+}
+nav li {
+	padding: 0 0.5em;
+}
+a {
+	color: var(--text-color);
+	text-decoration-thickness: 1px;
+	text-decoration-color: #ffffffb0;
+	text-underline-offset: 4px;
+	transition: all 0.1s ease-in;
+}
+a:hover {
+	text-decoration-color: var(--text-color);
+}
+
+nav li a {
+	padding: 0.75em;
+}
+
+
+
+
+main {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#header-border-indicator {
+	height: 1px;
+}
+#main-col-wrapper {
+	width: 80vw;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+h1 {
+	font-size: 60px;
+	font-size: clamp(50px, 10vw, 90px);
+	margin-bottom: 0.25em;
+}
+h2 {
+	font-size: 30px;
+	font-size: clamp(20px, 5vw, 35px);
+	margin-bottom: 0.75em;
+}
+#socials {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+#socials img {
+	width: 1.5em !important;
+	width: clamp(27px, 5vw, 40px) !important;
+	margin: 0 0.5em;
+}
+#github-logo {
+	margin-left: 0 !important;
+}
+.icon {
+	width: 483px;
+	height: 478px;
+	left: 81px;
+	top: 286px;
+	background: url(IMG_20220604_210145_779.png);
+	border-radius: 10000px;
+}
+
+
